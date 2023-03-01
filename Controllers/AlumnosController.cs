@@ -16,8 +16,8 @@ namespace WebAPIAutores.Controllers
         public ActionResult<List<Alumno>> GetAlumnos()
         {
             return new List<Alumno>(){
-                new Alumno(){ Id = 1, Nombre = "Antenor Lopez May"},
-                new Alumno(){ Id = 2, Nombre = "Felipe"}
+                new Alumno(){ Id = 1, Nombre = "Antenor Lopez May", Edad = 23},
+                new Alumno(){ Id = 2, Nombre = "Felipe", Edad = 22}
                 };
         }
 	}
