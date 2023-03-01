@@ -15,8 +15,8 @@ namespace WebAPIAutores.Controllers
         public ActionResult<List<Autor>> Get()
         {
             return new List<Autor>(){
-                new Autor(){ Id = 1, Nombre = "Antenor Lopez May"},
-                new Autor(){ Id = 2, Nombre = "Felipe"}
+                new Autor(){ Id = 1, Nombre = "Antenor Lopez May", Edad = 23},
+                new Autor(){ Id = 2, Nombre = "Felipe", Edad = 21}
                 };
         }
     }

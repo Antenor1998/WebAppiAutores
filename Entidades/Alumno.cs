@@ -5,9 +5,10 @@ using System.Threading.Tasks;
 
 namespace WebAPIAutores.Entidades
 {
-    public class Alumno
-    {
-        public int Id { get; set; }
+	public class Alumno
+	{
+		public int Id { get; set; }
 		public string Nombre { get; set; }
-    }
+		public int Edad { get; set; }
+	}
 }
