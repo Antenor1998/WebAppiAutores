@@ -13,5 +13,7 @@ namespace WebAPIAutores
 		{
 		}
 		public DbSet<Autor> Autores { get; set; }
+		public DbSet<Alumno> Alumnos { get; set; }
+		
 	}
 }
